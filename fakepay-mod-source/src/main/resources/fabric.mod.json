@@ -1,0 +1,17 @@
+{
+  "schemaVersion": 1,
+  "id": "fakepay",
+  "version": "1.0.0",
+  "name": "FakePay",
+  "description": "Client-side visual /fakepay command.",
+  "environment": "client",
+  "entrypoints": {
+    "client": ["com.fakepay.FakePayClient"]
+  },
+  "depends": {
+    "fabricloader": ">=0.15.0",
+    "minecraft": "~1.21",
+    "java": ">=21",
+    "fabric-api": "*"
+  }
+}
